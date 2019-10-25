@@ -9,12 +9,12 @@ import { SearchUserComponent } from './search-user/search-user.component';
 
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
-  {path:'login',component:LoginComponent},
-  {path:'register',component:RegisterComponent},
-  {path:'add-user',component:AddUserComponent},
-  {path:'delete-user',component:DeleteUserComponent},
-  {path:'search-user',component:SearchUserComponent}
+  {path: '', component: HomeComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'register', component: RegisterComponent},
+  {path: 'add-user', component: AddUserComponent},
+  {path: 'delete-user', component: DeleteUserComponent},
+  {path: 'search-user', component: SearchUserComponent}
 ];
 
 @NgModule({
